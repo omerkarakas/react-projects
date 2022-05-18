@@ -8,9 +8,11 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      monsters: []
+      monsters: [],
+      //monstersShown: []
+      searchString: ""
     }
-    console.log("constructor");
+    //console.log("constructor");
   }
 
   componentDidMount() {
@@ -20,6 +22,7 @@ class App extends Component {
         this.setState(
           () => {
             return { monsters: users };
+            //            return { monsters: users, monstersShown: users };
           },
           () => {
             console.log(this.state);
@@ -27,17 +30,35 @@ class App extends Component {
         )
       );
 
-    console.log("compDidMount");
+    //console.log("compDidMount");
 
   }
 
+  onSearchChange = (e) => {
+    // console.log(e);
+    const searchString = e.target.value.toUpperCase();
+    this.setState(
+      () => {
+        return { searchString };
+      });
+  }
+
   render() {
-    console.log("render");
+    //console.log("render");
+
+    const { monsters, searchString } = this.state;
+    const { onSearchChange } = this;
+
+    const selectedMons =
+      monsters.filter((mon) => {
+        return mon.name.toUpperCase().includes(searchString)
+      });
 
     return (
       <div className="App" >
+        <input className="search-box" type="search" placeholder="search monsters" onChange={onSearchChange} />
         {
-          this.state.monsters.map((mon) => {
+          selectedMons.map((mon) => {
             return <h1 key={mon.id}>{mon.name}</h1>;
           })
         }
