@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import { Component } from 'react';
+import CardList from './components/card-list/card-list.component';
 
 //function App() {
 class App extends Component {
@@ -12,7 +13,7 @@ class App extends Component {
       //monstersShown: []
       searchString: ""
     }
-    //console.log("constructor");
+    //console.log("appjs constructor");
   }
 
   componentDidMount() {
@@ -22,15 +23,16 @@ class App extends Component {
         this.setState(
           () => {
             return { monsters: users };
-            //            return { monsters: users, monstersShown: users };
-          },
-          () => {
-            console.log(this.state);
+            // return { monsters: users, monstersShown: users };
           }
+          // ,
+          // () => {
+          //   console.log(this.state);
+          // }
         )
       );
 
-    //console.log("compDidMount");
+    //  console.log("appjs compDidMount");
 
   }
 
@@ -44,10 +46,10 @@ class App extends Component {
   }
 
   render() {
-    //console.log("render");
-
     const { monsters, searchString } = this.state;
     const { onSearchChange } = this;
+
+    //console.log("appjs render");
 
     const selectedMons =
       monsters.filter((mon) => {
@@ -56,12 +58,17 @@ class App extends Component {
 
     return (
       <div className="App" >
-        <input className="search-box" type="search" placeholder="search monsters" onChange={onSearchChange} />
-        {
+        <input
+          className="search-box"
+          type="search"
+          placeholder="search monsters"
+          onChange={onSearchChange} />
+        {/* {
           selectedMons.map((mon) => {
             return <h1 key={mon.id}>{mon.name}</h1>;
           })
-        }
+        } */}
+        <CardList monsters={selectedMons} />
       </div >
     );
   }
