@@ -14,7 +14,7 @@ function FeedbackForm({ handleAdd }) {
     if (text === '') {
       setBtnDisabled(true);
       setMessage(null);
-    } else if (text !== '' && text.trim().length <= 10) {
+    } else if (text !== '' && text.trim().length < 10) {
       setMessage('Text must be at least 10 characters');
       setBtnDisabled(true);
     } else {
@@ -26,13 +26,14 @@ function FeedbackForm({ handleAdd }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (text.trim().length > 10) {
+    if (text.trim().length >= 10) {
       const newFeedBack = {
         text,
         rating,
       };
       handleAdd(newFeedBack);
       setText('');
+      setRating(5);
     }
   };
 
@@ -47,6 +48,7 @@ function FeedbackForm({ handleAdd }) {
             onChange={handleTextChange}
             type="text"
             placeholder="Write a review"
+            value={text}
           />
           <Button type="submit" isDisabled={btnDisabled}>
             Send
