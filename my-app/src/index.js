@@ -1,18 +1,53 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import './index.css';
-import Hello from './Hello';
-import reportWebVitals from './reportWebVitals';
-import 'tachyons';
+
+const firstBook = {
+  author: 'Emily Henry',
+  title: 'Beach Read',
+  imgSource:
+    'https://images-na.ssl-images-amazon.com/images/I/81dnLwy3-vL._AC_UL604_SR604,400_.jpg',
+};
+
+const secondBook = {
+  author: 'Colleen Hoover',
+  title: 'Ugly Love: A Novel',
+  imgSource:
+    'https://images-na.ssl-images-amazon.com/images/I/613KCs7szvL._AC_UL604_SR604,400_.jpg',
+};
+
+function BookList() {
+  return (
+    <section className="booklist">
+      <Book
+        img={firstBook.imgSource}
+        title={firstBook.title}
+        author={firstBook.author}
+      />
+      <Book
+        img={secondBook.imgSource}
+        title={secondBook.title}
+        author={secondBook.author}
+      />
+    </section>
+  );
+}
+
+const Book = (props) => {
+  const { author, title, img } = props;
+  return (
+    <article className="book">
+      <img src={img} alt="" />
+      <h1>{title}</h1>
+      <h4>{author}</h4>
+    </article>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Hello greeting={"Mr. Pro"} name={"_ÖK_"} />
-  </React.StrictMode>
+  // <React.StrictMode>
+  <BookList />
+  // </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
