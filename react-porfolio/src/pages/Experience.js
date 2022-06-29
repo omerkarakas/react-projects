@@ -16,7 +16,7 @@ function Experience() {
         {/* TKK */}
         <VerticalTimelineElement
           className="vertical-timeline--work"
-          date="2019 - 2021"
+          date="2021 - Current"
           iconStyle={{ background: 'steelblue', color: '#fff' }}
           icon={<WorkIcon />}
         >
@@ -26,7 +26,7 @@ function Experience() {
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Operations / Project Manager
           </h5>
-          <p>...</p>
+          <p>Operations management, projects management</p>
         </VerticalTimelineElement>
 
         {/* Bilge Adam */}
@@ -42,7 +42,10 @@ function Experience() {
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Java Instructor
           </h5>
-          <p>Java, Hibernate, Spring, MVC, AOP, REST, Springboot</p>
+          <p>
+            JavaScript, HTML, CSS, Java, Hibernate, Spring, MVC, AOP, REST,
+            Spring boot
+          </p>
         </VerticalTimelineElement>
 
         {/* SGK */}
@@ -74,7 +77,7 @@ function Experience() {
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Co-Founder, Java/JavaScript Developer
           </h5>
-          <p>JS, AngularJS, Ionic Framework, Cordova, Vaadin </p>
+          <p>JS, AngularJS, Ionic Framework, Cordova, Java, Spring, Vaadin </p>
         </VerticalTimelineElement>
 
         {/* INNOVA */}
@@ -90,6 +93,7 @@ function Experience() {
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Java Developer & Oracle Developer/DBA
           </h5>
+          <p>Java, Swing, Oracle Database, SQL, PL/SQL</p>
         </VerticalTimelineElement>
 
         {/* MS */}
@@ -115,7 +119,8 @@ function Experience() {
           <h3 className="vertical-timeline-element-title title">
             Docuart IT, Ankara, Turkey
           </h3>
-          <p>Oracle Forms/Reports Developer</p>
+          <h5>Oracle Forms/Reports Developer</h5>
+          <p> Oracle Database, SQL, PL/SQL, Oracle Forms, Reports</p>
         </VerticalTimelineElement>
 
         {/* BS */}

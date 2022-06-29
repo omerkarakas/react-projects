@@ -9,17 +9,30 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>
-          Hi, My name is <br /> Omer Karakas
-        </h2>
+        <h2>I'm Omer Karakas</h2>
         <div className="prompt">
           <p>
             I am a software engineer who loves learning, coding and creating
           </p>
           <div className="icons-container">
-            <LinkedInIcon />
-            <EmailIcon />
-            <GitHubIcon />
+            <a
+              href="https://www.linkedin.com/in/okarakas/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon />
+            </a>
+            <a href="mailto:omer@okarakas.com">
+              <EmailIcon />
+            </a>
+
+            <a
+              href="https://github.com/omerkarakas"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon />
+            </a>
           </div>
         </div>
       </div>
@@ -28,15 +41,19 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
-            <span>HTML, CSS, JavaScript, BootStrap, ReactJS, Redux</span>
+            <span className="span">HTML, CSS, BootStrap</span>
+            <br />
+            <span className="span">JavaScript, ReactJS</span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>NodeJS, ExpressJS, Java Spring</span>
+            <span className="span">Node.js, ExpressJS, NestJS</span>
+            <br />
+            <span className="span">Java Spring Framework</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, C, C++</span>
+            <span className="span">JavaScript, Java, C, C++</span>
           </li>
         </ol>
       </div>
