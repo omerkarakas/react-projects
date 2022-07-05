@@ -1,9 +1,9 @@
-import UseRefExample3 from './components/UseRefExample3';
+import Comp from './components/CustomHookExample2';
 
 function App() {
   return (
     <div className="container mt-5">
-      <UseRefExample3 />
+      <Comp />
     </div>
   );
 }
