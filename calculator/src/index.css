@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-color: rgb(48, 48, 48);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.calculator {
+  background-color: rgb(48, 48, 48);
+  width: 100%;
+  height: 98vh;
+}
+
+.header {
+  font-size: small;
+  padding: 10px;
+  height: 5%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+.left-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.right-container {
+  width: 40%;
+  height: 100%;
+}
+
+.calculation {
+  height: 20%;
+}
+.button-pad {
+  background-color: steelblue;
+  height: 80%;
+}
+
+.m-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1px 1px;
+  background-color: rgb(33, 33, 33);
+  height: 100%;
+}
+
+.m-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.m-button:hover {
+  background-color: darkgray;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.button:hover {
+  background-color: rgb(63, 63, 63);
+  border: 1px solid brown;
+}
+
+.button:active {
+  transform: translate(0, 0.1rem);
+  box-shadow: 0 0.1rem rgb(150, 150, 150, 0.5);
+}
