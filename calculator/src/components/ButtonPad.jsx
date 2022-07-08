@@ -29,7 +29,7 @@ function ButtonPad() {
         <Button id="7" />
         <Button id="8" />
         <Button id="9" />
-        <Button id="X" children={<FaTimes />} />
+        <Button id="x" children={<FaTimes />} />
 
         <Button id="4" />
         <Button id="5" />

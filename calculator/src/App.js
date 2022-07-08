@@ -2,6 +2,7 @@ import { useState } from 'react';
 import ButtonPad from './components/ButtonPad';
 import Calculation from './components/Calculation';
 import Header from './components/Header';
+import History from './components/History';
 import StateWatch from './components/StateWatch';
 
 function App() {
@@ -19,8 +20,8 @@ function App() {
             <button>Memory</button>
           </div>
           <div className="tab-detail">
-            <div className="detail">Tab details here</div>
-            <StateWatch />
+            <History />
+            {/* <StateWatch /> */}
           </div>
         </div>
       </div>
