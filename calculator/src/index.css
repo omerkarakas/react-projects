@@ -20,12 +20,6 @@ code {
     monospace;
 }
 
-.calculator {
-  background-color: rgb(48, 48, 48);
-  width: 100%;
-  height: 98vh;
-}
-
 .header {
   font-size: small;
   padding: 10px;
@@ -34,17 +28,18 @@ code {
 
 .main-container {
   display: flex;
+  margin: 5px;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 90vh;
+  width: 90vw;
+  background-color: rgb(90, 90, 90);
 }
 
 .left-container {
   width: 60%;
-  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 .right-container {
@@ -53,11 +48,15 @@ code {
 }
 
 .calculation {
-  height: 20%;
+  height: 10em;
+  border: 1px solid white;
 }
 .button-pad {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   background-color: steelblue;
-  height: 80%;
+  height: 100%;
 }
 
 .m-buttons-container {
@@ -106,4 +105,17 @@ code {
 .button:active {
   transform: translate(0, 0.1rem);
   box-shadow: 0 0.1rem rgb(150, 150, 150, 0.5);
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tab-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }

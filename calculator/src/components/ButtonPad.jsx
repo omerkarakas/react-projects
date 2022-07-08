@@ -16,35 +16,35 @@ function ButtonPad() {
         <MButton text="MS" />
       </div>
       <div className="buttons-container">
-        <Button children={<FiPercent />} />
-        <Button children="CE" />
-        <Button children="C" />
-        <Button children={<IoBackspaceOutline />} />
+        <Button id="%" children={<FiPercent />} />
+        <Button id="CE" />
+        <Button id="C" />
+        <Button id="BACK" children={<IoBackspaceOutline />} />
 
-        <Button children="1/x" />
-        <Button children="x^2" />
-        <Button children="sqrt(x)" />
-        <Button children={<FaDivide />} />
+        <Button id="1/x" />
+        <Button id="x^2" />
+        <Button id="sqrt(x)" />
+        <Button id="/" children={<FaDivide />} />
 
-        <Button children="7" />
-        <Button children="8" />
-        <Button children="9" />
-        <Button children={<FaTimes />} />
+        <Button id="7" />
+        <Button id="8" />
+        <Button id="9" />
+        <Button id="X" children={<FaTimes />} />
 
-        <Button children="4" />
-        <Button children="5" />
-        <Button children="6" />
-        <Button children={<FaMinus />} />
+        <Button id="4" />
+        <Button id="5" />
+        <Button id="6" />
+        <Button id="-" children={<FaMinus />} />
 
-        <Button children="1" />
-        <Button children="2" />
-        <Button children="3" />
-        <Button children={<FaPlus />} />
+        <Button id="1" />
+        <Button id="2" />
+        <Button id="3" />
+        <Button id="+" children={<FaPlus />} />
 
-        <Button children="+/-" />
-        <Button children="0" />
-        <Button children="." />
-        <Button children={<FaEquals />} />
+        <Button id="+/-" />
+        <Button id="0" />
+        <Button id="." />
+        <Button id="=" children={<FaEquals />} />
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import ButtonPad from './components/ButtonPad';
 import Calculation from './components/Calculation';
 import Header from './components/Header';
+import StateWatch from './components/StateWatch';
 
 function App() {
   return (
@@ -12,7 +14,14 @@ function App() {
           <ButtonPad />
         </div>
         <div className="right-container">
-          <div>No history yet</div>
+          <div className="tab-buttons">
+            <button>History</button>
+            <button>Memory</button>
+          </div>
+          <div className="tab-detail">
+            <div className="detail">Tab details here</div>
+            <StateWatch />
+          </div>
         </div>
       </div>
     </>
