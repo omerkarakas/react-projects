@@ -25,6 +25,12 @@ function StateWatch() {
       <p className="p-state">
         {`Concat: ${context.concat} ${typeof context.concat}`}
       </p>
+      <p className="p-state">
+        {`Percent: ${context.percent} ${typeof context.percent}`}
+      </p>
+      <p className="p-state">
+        {`Memory: ${context.memory} ${typeof context.memory}`}
+      </p>
     </div>
   );
 }

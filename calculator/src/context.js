@@ -11,7 +11,8 @@ const AppProvider = ({ children }) => {
 
   const [turn, setTurn] = useState('first');
   const [concat, setConcat] = useState(false);
-  const [memory, setMemory] = useState(0);
+  const [memory, setMemory] = useState(155);
+  const [percent, setPercent] = useState(false);
 
   const addOperationHistory = (first, second, operation, result) => {
     setOperationHistory([
@@ -22,6 +23,9 @@ const AppProvider = ({ children }) => {
 
   const calculate = (first, second, operation) => {
     let result;
+    let pct = percent;
+    let scnd = second;
+    setPercent(false);
     switch (operation) {
       case '+':
         result = first + second;
@@ -30,7 +34,9 @@ const AppProvider = ({ children }) => {
         result = first - second;
         break;
       case 'x':
-        result = first * second;
+        scnd = second / (pct ? 100 : 1);
+        setSecond(scnd);
+        result = first * scnd;
         break;
       case '/':
         result = first / second;
@@ -39,13 +45,16 @@ const AppProvider = ({ children }) => {
         console.log('Non defined operation');
     }
 
-    addOperationHistory(first, second, operation, result);
+    addOperationHistory(first, scnd, operation, result);
     return result;
   };
 
   const buttonClick = (btn) => {
     if (isNaN(+btn)) {
       switch (btn) {
+        case '%':
+          setPercent(true);
+          break;
         case '+':
         case '-':
         case 'x':
@@ -92,6 +101,23 @@ const AppProvider = ({ children }) => {
           }
 
           break;
+        case '1/x':
+          setCurrent(1 / current);
+          break;
+        case 'x^2':
+          setCurrent(current * current);
+          break;
+        case 'sqrt(x)':
+          setCurrent(Math.sqrt(current));
+          break;
+        case '+/-':
+          setCurrent(-1 * current);
+          break;
+        case 'BACK':
+          if (current.toString().length > 1)
+            setCurrent(Number(current.toString().slice(0, -1)));
+          else setCurrent(0);
+          break;
       }
     } else {
       console.log('number', btn);
@@ -109,9 +135,19 @@ const AppProvider = ({ children }) => {
     }
   };
 
+  const memButtonClick = (btn) => {
+    console.log(btn);
+    switch (btn) {
+      case 'MC':
+        setMemory(null);
+        break;
+    }
+  };
+
   useEffect(() => {
     setFirst(0);
     setSecond(0);
+    setPercent(false);
   }, []);
 
   return (
@@ -124,12 +160,16 @@ const AppProvider = ({ children }) => {
         current,
         concat,
         operationHistory,
+        percent,
+        memory,
         setFirst,
         setSecond,
         setOperation,
         setTurn,
         buttonClick,
+        memButtonClick,
         setOperationHistory,
+        setMemory,
       }}
     >
       {children}
