@@ -8,7 +8,8 @@ import StateWatch from './components/StateWatch';
 
 function App() {
   const [activePanel, setActivePanel] = useState('history');
-
+  let showHistory = activePanel === 'history';
+  let showMemory = activePanel === 'memory';
   return (
     <>
       <Header />
@@ -19,13 +20,23 @@ function App() {
         </div>
         <div className="right-container">
           <div className="tab-buttons">
-            <button onClick={() => setActivePanel('history')}>History</button>
-            <button onClick={() => setActivePanel('memory')}>Memory</button>
+            <button
+              onClick={() => setActivePanel('history')}
+              className={`${showHistory ? 'button-selected' : ''}`}
+            >
+              History
+            </button>
+            <button
+              onClick={() => setActivePanel('memory')}
+              className={`${showMemory ? 'button-selected' : ''}`}
+            >
+              Memory
+            </button>
           </div>
           <div className="tab-detail">
             <History showPanel={activePanel === 'history'} />
             <Memory showPanel={activePanel === 'memory'} />
-            <StateWatch />
+            {/* <StateWatch /> */}
           </div>
         </div>
       </div>

@@ -1,13 +1,17 @@
 import React from 'react';
 import { useGlobalContext } from '../context';
 
-function MButton({ text }) {
-  const { memButtonClick } = useGlobalContext();
+function MButton({ text, control }) {
+  const { memory, memButtonClick } = useGlobalContext();
+  const isMemFree = control === 'true' && memory === null;
   const clickMe = (e) => {
-    memButtonClick({ text });
+    if (!e.target.classList.contains('passive')) memButtonClick(text);
   };
   return (
-    <div className="m-button" onClick={(e) => clickMe(e)}>
+    <div
+      className={`${isMemFree ? 'passive' : ''} m-button`}
+      onClick={(e) => clickMe(e)}
+    >
       {text}
     </div>
   );

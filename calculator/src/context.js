@@ -11,7 +11,9 @@ const AppProvider = ({ children }) => {
 
   const [turn, setTurn] = useState('first');
   const [concat, setConcat] = useState(false);
-  const [memory, setMemory] = useState(155);
+  const [memory, setMemory] = useState(null);
+  const [memoryHistory, setMemoryHistory] = useState([]);
+
   const [percent, setPercent] = useState(false);
 
   const addOperationHistory = (first, second, operation, result) => {
@@ -86,6 +88,7 @@ const AppProvider = ({ children }) => {
           break;
 
         case 'C':
+          setMemory(null);
         case 'CE':
           setFirst(0);
           setSecond(0);
@@ -140,6 +143,21 @@ const AppProvider = ({ children }) => {
     switch (btn) {
       case 'MC':
         setMemory(null);
+        setMemoryHistory([]);
+        break;
+      case 'MR':
+        setCurrent(memory);
+        break;
+      case 'M+':
+        setMemory(memory + current);
+        break;
+      case 'M-':
+        setMemory(memory - current);
+        break;
+      case 'MS':
+        setMemory(current);
+        setMemoryHistory([current, ...memoryHistory]);
+        console.log('Add a log ');
         break;
     }
   };
@@ -162,6 +180,7 @@ const AppProvider = ({ children }) => {
         operationHistory,
         percent,
         memory,
+        memoryHistory,
         setFirst,
         setSecond,
         setOperation,
@@ -170,6 +189,7 @@ const AppProvider = ({ children }) => {
         memButtonClick,
         setOperationHistory,
         setMemory,
+        setMemoryHistory,
       }}
     >
       {children}

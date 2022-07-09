@@ -9,8 +9,8 @@ function ButtonPad() {
   return (
     <div className="button-pad">
       <div className="m-buttons-container">
-        <MButton text="MC" />
-        <MButton text="MR" />
+        <MButton text="MC" control="true" />
+        <MButton text="MR" control="true" />
         <MButton text="M+" />
         <MButton text="M-" />
         <MButton text="MS" />
