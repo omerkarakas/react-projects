@@ -1,5 +1,5 @@
 import { React } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { ProjectList } from '../utils/ProjectList';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/ProjectDisplay.css';
@@ -15,7 +15,12 @@ function ProjectDisplay() {
         <b>Skills:</b>
         {project.skills}
       </p>
-      <GitHubIcon />
+      <a href={project.url} target="_blank">
+        Live Demo
+      </a>
+      <a href={project.githubUrl} target="_blank">
+        <GitHubIcon />
+      </a>
     </div>
   );
 }
