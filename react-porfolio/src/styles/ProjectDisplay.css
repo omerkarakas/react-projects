@@ -7,18 +7,25 @@
   flex-direction: column;
 }
 
-.project h1 {
+.project h2 {
   margin-top: 50px;
   color: #3e497a;
   font-size: 35px;
 }
 .project img {
-  width: 700px;
+  width: auto;
+  height: 30vh;
   border-radius: 10px;
+  margin: 20px;
 }
 
 .project p {
   font-size: 20px;
+  color: #3e497a;
+}
+
+.project a {
+  font-size: 24px;
   color: #3e497a;
 }
 

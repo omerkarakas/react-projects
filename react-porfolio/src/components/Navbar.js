@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useMatch, useResolvedPath } from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';
 
 import '../styles/Navbar.css';
@@ -16,6 +16,7 @@ function Navbar() {
   return (
     <div className="navbar" id={expandNavbar ? 'open' : 'close'}>
       <div className="toggleButton">
+        <span>okarakas.com</span>
         <button
           onClick={() => {
             // setExpandNavbar((x) => !x);
@@ -27,17 +28,27 @@ function Navbar() {
         </button>
       </div>
       <div className="links">
-        <Link to="/" className="link-component">
-          Home
-        </Link>
-        <Link to="/projects" className="link-component">
-          Projects
-        </Link>
-        <Link to="/experience" className="link-component">
-          Experience
-        </Link>
+        <CustomLink to="/">Home</CustomLink>
+        <CustomLink to="/projects">Projects</CustomLink>
+        <CustomLink to="/experience">Experience</CustomLink>
       </div>
     </div>
   );
 }
+
+function CustomLink({ to, children }) {
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+  return (
+    <li>
+      <Link
+        to={to}
+        className={isActive ? 'link-component active' : 'link-component'}
+      >
+        {children}
+      </Link>
+    </li>
+  );
+}
+
 export default Navbar;

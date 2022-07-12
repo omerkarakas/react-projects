@@ -8,7 +8,7 @@ import { ProjectList } from '../utils/ProjectList';
 function Projects() {
   return (
     <div className="projects">
-      <h1>My Personal Projects</h1>
+      <h3>My Personal Projects</h3>
       <div className="projectList">
         {ProjectList.map((prj, index) => {
           return (

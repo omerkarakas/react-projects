@@ -2,7 +2,7 @@
   width: 100%;
   align-items: center;
   font-family: 'Poppins', sans-serif;
-  color: #3e497a;
+  color: #21325e;
 }
 
 .about {
@@ -56,14 +56,13 @@
   align-items: center;
 }
 
-.skills h1 {
-  color: #3e497a;
-  margin: 20px auto;
-}
-
 .skills h2 {
-  margin: 20px auto;
+  margin: 40px auto;
   text-align: center;
+  text-decoration: underline;
+}
+.skills h4 {
+  margin-top: 30px;
 }
 
 .skills .list {

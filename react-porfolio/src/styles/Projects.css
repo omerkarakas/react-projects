@@ -5,7 +5,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  color: #21325e;
 }
+
+.projects h3 {
+  margin: 40px auto;
+  text-align: center;
+  text-decoration: underline;
+}
+
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
@@ -48,7 +58,7 @@
 }
 
 .projectItem h1 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 1300px) {

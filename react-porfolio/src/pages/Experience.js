@@ -119,7 +119,10 @@ function Experience() {
           <h3 className="vertical-timeline-element-title title">
             Docuart IT, Ankara, Turkey
           </h3>
-          <h5>Oracle Forms/Reports Developer</h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Oracle Forms/Reports Developer
+          </h5>
+
           <p> Oracle Database, SQL, PL/SQL, Oracle Forms, Reports</p>
         </VerticalTimelineElement>
 

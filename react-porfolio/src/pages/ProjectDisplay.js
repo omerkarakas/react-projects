@@ -9,10 +9,10 @@ function ProjectDisplay() {
   const project = ProjectList[id];
   return (
     <div className="project">
-      <h1>{project.name}</h1>
+      <h2>{project.name}</h2>
       <img src={project.img} alt={project.name} />
       <p>
-        <b>Skills:</b>
+        <b> Tech stack : &nbsp;</b>
         {project.skills}
       </p>
       <a href={project.url} target="_blank">

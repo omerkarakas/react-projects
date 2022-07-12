@@ -13,16 +13,38 @@
   color: white;
 }
 
+.link-component {
+  font-size: 1rem;
+}
+
+.links li {
+  list-style-type: none;
+}
+
 /* .navbar a {
   width: 100px;
 } */
 .navbar a {
   color: white;
   text-decoration: none;
-  margin: 20px;
+  margin: 30px;
   font-size: 25px;
-  width: 120px;
   text-align: center;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.navbar a:hover {
+  filter: brightness(125%);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.link-component.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#button:active {
+  transform: scale(1.25);
 }
 
 .toggleButton {
@@ -30,7 +52,7 @@
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .toggleButton svg {
@@ -42,6 +64,14 @@
   border: none;
   color: white;
   cursor: pointer;
+  transition: all 0.3s linear;
+}
+.toggleButton span {
+  color: white;
+  margin: 10px;
+}
+.toggleButton button:hover {
+  transform: rotate(90deg);
 }
 
 #open {

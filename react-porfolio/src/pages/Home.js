@@ -37,23 +37,25 @@ function Home() {
         </div>
       </div>
       <div className="skills">
-        <h1>Skills</h1>
+        <h2>Skills</h2>
         <ol className="list">
           <li className="item">
-            <h2>Front-End</h2>
+            <h4>Front-End</h4>
             <span className="span">HTML, CSS, BootStrap</span>
             <br />
             <span className="span">JavaScript, ReactJS</span>
           </li>
           <li className="item">
-            <h2>Back-End</h2>
+            <h4>Back-End</h4>
             <span className="span">Node.js, ExpressJS, NestJS</span>
             <br />
             <span className="span">Java Spring Framework</span>
+            <br />
+            <span className="span">SQL, NoSQL</span>
           </li>
           <li className="item">
-            <h2>Languages</h2>
-            <span className="span">JavaScript, Java, C, C++</span>
+            <h4>Languages</h4>
+            <span className="span">JavaScript, TypeScript, Java </span>
           </li>
         </ol>
       </div>
