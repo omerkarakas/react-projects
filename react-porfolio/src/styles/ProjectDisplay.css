@@ -11,9 +11,11 @@
   margin-top: 50px;
   color: #3e497a;
   font-size: 35px;
+  text-align: center;
 }
 .project img {
-  width: auto;
+  width: 400;
+  max-width: 80%;
   height: 30vh;
   border-radius: 10px;
   margin: 20px;

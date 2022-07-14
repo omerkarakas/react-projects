@@ -10,10 +10,16 @@
   color: #21325e;
 }
 
-.projects h3 {
-  margin: 40px auto;
+.projects h2 {
+  margin: 20px auto;
   text-align: center;
-  text-decoration: underline;
+  font-size: 36px;
+}
+
+.projects h3 {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 20px;
 }
 
 .projects .projectTitle {
@@ -31,13 +37,17 @@
   place-items: center;
 }
 
+.projectList a {
+  text-decoration: none;
+}
+
 /* MENU ITEM STYLING */
 
 .projectItem {
   border-radius: 15px;
   width: 300px;
   height: 300px;
-  margin: 40px;
+  margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
@@ -55,10 +65,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.projectItem h1 {
-  font-size: 20px;
 }
 
 @media only screen and (max-width: 1300px) {
