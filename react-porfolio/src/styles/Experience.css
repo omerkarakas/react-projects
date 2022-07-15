@@ -12,3 +12,7 @@
 .title {
   line-height: 24px;
 }
+
+.vertical-timeline-element:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
