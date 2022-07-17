@@ -1,4 +1,4 @@
-import Comp from './components/CustomHookExample2';
+import Comp from './components/CustomHookExample1';
 
 function App() {
   return (
