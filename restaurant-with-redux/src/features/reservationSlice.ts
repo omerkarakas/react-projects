@@ -1,4 +1,3 @@
-import { reservationsSlice } from './reservationSlice';
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface ReservationState {
