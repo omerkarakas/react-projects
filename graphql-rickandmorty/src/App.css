@@ -1,0 +1,11 @@
+.App {
+  max-width: 70rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 3rem auto;
+}
