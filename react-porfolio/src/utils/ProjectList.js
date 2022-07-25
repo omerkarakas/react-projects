@@ -1,5 +1,5 @@
 import imgP1 from '../assets/p1.png';
-import imgP2 from '../assets/p2.png';
+import imgMovie from '../assets/movie.png';
 import imgP3 from '../assets/p3.png';
 import imgP4 from '../assets/p4.svg';
 
@@ -12,6 +12,15 @@ export const ProjectList = [
     githubUrl: 'https://github.com/omerkarakas/classy-clothing',
   },
   {
+    name: 'Movie Database',
+    img: imgMovie,
+    skills: 'React JS, Rest API',
+    url: 'https://movies.okarakas.com',
+    githubUrl:
+      'https://github.com/omerkarakas/react-projects/tree/master/movies-app',
+  },
+
+  {
     name: 'Win Calculator Clone',
     img: imgP3,
     skills: 'React JS',
@@ -22,7 +31,7 @@ export const ProjectList = [
   {
     name: 'Haldoon, The Search Engine',
     img: imgP4,
-    skills: 'React JS, Rapid API',
+    skills: 'React JS, Rest API',
     url: 'http://haldoon.okarakas.com',
     githubUrl: 'https://github.com/omerkarakas/haldoon',
   },
