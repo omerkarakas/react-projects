@@ -3,13 +3,6 @@
 Variables
 ===============
 */
-@font-face {
-  font-family: 'HollywoodHills';
-  src: local('SFHollywoodHills'),
-    url('/fonts/SFHollywoodHills.ttf') format('truetype'); /*URL to font*/
-  font-weight: normal;
-  font-style: normal;
-}
 
 :root {
   /* dark shades of primary color*/
