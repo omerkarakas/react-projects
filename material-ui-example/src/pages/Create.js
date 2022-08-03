@@ -23,7 +23,7 @@ export default function Create() {
       >
         Create a New Note
       </Typography>
-      <CustomizedButton
+      <Button
         type="submit"
         color="secondary"
         variant="contained"
@@ -37,7 +37,7 @@ export default function Create() {
         // }}
       >
         Submit
-      </CustomizedButton>
+      </Button>
       <br />
     </Container>
   );
