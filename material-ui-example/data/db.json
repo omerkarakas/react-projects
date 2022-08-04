@@ -1,0 +1,28 @@
+{
+  "notes": [
+    {
+      "title": "Wake up early",
+      "details": "Wake up earlier than you need to and take care of you (exercise, reading, newspaper and coffee, relaxation)",
+      "category": "Reminders",
+      "id": 1
+    },
+    {
+      "title": "Take a knap",
+      "details": "Take a quick 20 minute nap in the afternoon if you can manage it. 20 minute naps reset and revitalize you.",
+      "category": "Work",
+      "id": 2
+    },
+    {
+      "title": "Order a pizza!",
+      "details": "Write down everything you think you have to do for the day. Then decide on your outcomes (Using The RPM Planning Method). Now circle all the tasks that help you achieve those outcomes. Prioritize those.",
+      "category": "Personal",
+      "id": 3
+    },
+    {
+      "title": "Walk for 30 minutes",
+      "details": "Reflection while you walk. think about your life. what are your goals right now. plan to achieve them in the morning",
+      "category": "Personal",
+      "id": 4
+    }
+  ]
+}
