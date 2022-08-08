@@ -23,6 +23,12 @@
       "details": "Reflection while you walk. think about your life. what are your goals right now. plan to achieve them in the morning",
       "category": "Personal",
       "id": 4
+    },
+    {
+      "title": "test note",
+      "details": "aaa bbb",
+      "category": "Finance",
+      "id": 5
     }
   ]
 }
