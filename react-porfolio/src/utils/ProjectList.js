@@ -2,6 +2,7 @@ import imgP1 from '../assets/p1.png';
 import imgMovie from '../assets/movie.png';
 import imgP3 from '../assets/p3.png';
 import imgP4 from '../assets/p4.svg';
+import imgP5 from '../assets/f1.jpg';
 
 export const ProjectList = [
   {
@@ -34,5 +35,12 @@ export const ProjectList = [
     skills: 'React JS, Rest API',
     url: 'http://haldoon.okarakas.com',
     githubUrl: 'https://github.com/omerkarakas/haldoon',
+  },
+  {
+    name: 'Formula 1 Race History',
+    img: imgP5,
+    skills: 'NextJS, React JS',
+    url: 'https://formula1-ten.vercel.app',
+    githubUrl: 'https://github.com/omerkarakas/nextjs-formula1',
   },
 ];
