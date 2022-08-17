@@ -3,6 +3,7 @@ import imgMovie from '../assets/movie.png';
 import imgP3 from '../assets/p3.png';
 import imgP4 from '../assets/p4.svg';
 import imgP5 from '../assets/f1.jpg';
+import imgP6 from '../assets/ptt.jpg';
 
 export const ProjectList = [
   {
@@ -42,5 +43,12 @@ export const ProjectList = [
     skills: 'NextJS, React JS',
     url: 'https://formula1-ten.vercel.app',
     githubUrl: 'https://github.com/omerkarakas/nextjs-formula1',
+  },
+  {
+    name: 'Personal Task Tracker',
+    img: imgP6,
+    skills: 'React JS, Materia UI, Rest API, Node.js',
+    url: 'https://personal-tasktracker.netlify.app',
+    githubUrl: 'https://github.com/omerkarakas/personal-task-tracker',
   },
 ];
