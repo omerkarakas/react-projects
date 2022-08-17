@@ -19,14 +19,18 @@ function Experience() {
           date="2021 - Current"
           iconStyle={{ background: 'steelblue', color: '#fff' }}
           icon={<WorkIcon />}
+          h5="omer"
         >
           <h3 className="vertical-timeline-element-title title">
-            Agricultural Credit Cooperatives, Ankara, Turkey
+            Agricultural Credit Cooperatives
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
-            Operations / Project Manager
+            IT Consultant
           </h5>
-          <p>Operations management, projects management</p>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
+          <p>Javascript, Typescript, React.js, Express, Node.js Projects</p>
         </VerticalTimelineElement>
 
         {/* Bilge Adam */}
@@ -37,10 +41,13 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title title">
-            Bilge Adam Academy, Ankara, Turkey
+            Bilge Adam Academy
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
-            Java Instructor
+            Javascript, Java, Spring Instructor
+          </h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
           </h5>
           <p>
             JavaScript, HTML, CSS, Java, Hibernate, Spring, MVC, AOP, REST,
@@ -56,10 +63,13 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title title">
-            Social Security Institution, Ankara, Turkey
+            Social Security Institution
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Database Performance Tuning Expert
+          </h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
           </h5>
           <p>IBM DB2, SQL/PL</p>
         </VerticalTimelineElement>
@@ -72,12 +82,18 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title title">
-            Pirigo Payment Solutions, Ankara, Turkey
+            Pirigo Payment Solutions
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Co-Founder, Java/JavaScript Developer
           </h5>
-          <p>JS, AngularJS, Ionic Framework, Cordova, Java, Spring, Vaadin </p>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
+          <p>
+            Frontend JS, Angular, Ionic, Cordova, Amazon Web Services (AWS),
+            Vaadin Framework, Backend Spring Java development
+          </p>
         </VerticalTimelineElement>
 
         {/* INNOVA */}
@@ -88,10 +104,13 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title title">
-            Innova IT Solutions, Ankara, Turkey
+            Innova IT Solutions
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Java Developer & Oracle Developer/DBA
+          </h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
           </h5>
           <p>Java, Swing, Oracle Database, SQL, PL/SQL</p>
         </VerticalTimelineElement>
@@ -104,9 +123,12 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title title">
-            Middle East Technical University, Ankara, Turkey
+            Middle East Technical University
           </h3>
-          <p>MS in Computer Engineering, GPA:3.45</p>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
+          <p>MS in Computer Engineering, GPA : 3.45</p>
         </VerticalTimelineElement>
 
         {/* DOCUART */}
@@ -116,13 +138,13 @@ function Experience() {
           iconStyle={{ background: 'steelblue', color: '#fff' }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title title">
-            Docuart IT, Ankara, Turkey
-          </h3>
+          <h3 className="vertical-timeline-element-title title">Docuart IT</h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Oracle Forms/Reports Developer
           </h5>
-
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
           <p> Oracle Database, SQL, PL/SQL, Oracle Forms, Reports</p>
         </VerticalTimelineElement>
 
@@ -134,9 +156,12 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title title">
-            Middle East Technical University, Ankara, Turkey
+            Middle East Technical University
           </h3>
-          <p>BS in Civil Engineering, GPA:2.85</p>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
+          <p>BS in Civil Engineering, GPA : 2.85</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
