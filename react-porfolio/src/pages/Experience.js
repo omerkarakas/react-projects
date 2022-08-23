@@ -22,10 +22,10 @@ function Experience() {
           h5="omer"
         >
           <h3 className="vertical-timeline-element-title title">
-            Agricultural Credit Cooperatives
+            Turkish Agricultural Credit Cooperatives
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
-            IT Consultant
+            Full Stack Engineer
           </h5>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Ankara, Turkey
@@ -33,10 +33,33 @@ function Experience() {
           <p>Javascript, Typescript, React.js, Express, Node.js Projects</p>
         </VerticalTimelineElement>
 
+        {/* PIRIGO */}
+        <VerticalTimelineElement
+          className="vertical-timeline--work"
+          date="2020 - 2021"
+          iconStyle={{ background: 'steelblue', color: '#fff' }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title title">
+            Pirigo Payment Solutions
+          </h3>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Co-Founder, Java/JavaScript Developer
+          </h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
+          <p>
+            Javascript, TypeScript, React.js, React native, Amazon Web Services
+            (AWS), Spring/Java backend development, Java Vaadin, Web Services
+            (REST, SOAP), PostgreSQL
+          </p>
+        </VerticalTimelineElement>
+
         {/* Bilge Adam */}
         <VerticalTimelineElement
           className="vertical-timeline--work"
-          date="2019 - 2021"
+          date="2019 - 2020"
           iconStyle={{ background: 'steelblue', color: '#fff' }}
           icon={<WorkIcon />}
         >
@@ -50,8 +73,8 @@ function Experience() {
             Ankara, Turkey
           </h5>
           <p>
-            JavaScript, HTML, CSS, Java, Hibernate, Spring, MVC, AOP, REST,
-            Spring boot
+            JavaScript, Node.js, HTML, CSS, Java, Hibernate, Spring, MVC, AOP,
+            REST, Spring boot
           </p>
         </VerticalTimelineElement>
 
@@ -63,7 +86,7 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title title">
-            Social Security Institution
+            Social Security Institution, VBT Software
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Database Performance Tuning Expert
@@ -71,7 +94,7 @@ function Experience() {
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Ankara, Turkey
           </h5>
-          <p>IBM DB2, SQL/PL</p>
+          <p>Java, IBM DB2, SQL/PL</p>
         </VerticalTimelineElement>
 
         {/* PIRIGO */}

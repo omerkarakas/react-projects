@@ -1,6 +1,6 @@
 import { React } from 'react';
 import { useParams } from 'react-router-dom';
-import { ProjectList } from '../utils/ProjectList';
+import { ProjectList } from '../utils/ProjectsData';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/ProjectDisplay.css';
 
@@ -14,9 +14,9 @@ function ProjectDisplay() {
         <img src={project.img} alt={project.name} />
       </a>
       <p>
-        <b> Tech stack : &nbsp;</b>
-        {project.skills}
+        <b> Tech stack</b>
       </p>
+      <p>{project.skills}</p>
       <a href={project.url} target="_blank" rel="noreferrer">
         Live Demo
       </a>

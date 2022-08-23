@@ -4,8 +4,16 @@ import imgP3 from '../assets/p3.png';
 import imgP4 from '../assets/p4.svg';
 import imgP5 from '../assets/f1.jpg';
 import imgP6 from '../assets/ptt.jpg';
+import imgP7 from '../assets/rm.png';
 
 export const ProjectList = [
+  {
+    name: 'Rick and Morty Project',
+    img: imgP7,
+    skills: 'React JS, Rest API, Ant Design',
+    url: 'https://rickn-morty.netlify.app/',
+    githubUrl: 'https://github.com/omerkarakas',
+  },
   {
     name: 'E-Commerce website',
     img: imgP1,

@@ -1,6 +1,5 @@
 .project {
-  width: 100%;
-  height: calc(100vh - 100px);
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,22 +7,23 @@
 }
 
 .project h2 {
-  margin: 50px;
+  margin: 10px;
   color: #3e497a;
-  font-size: 35px;
   text-align: center;
 }
 .project img {
-  width: 400;
-  max-width: 80%;
+  width: 300px;
+  height: 300px;
   height: 30vh;
   border-radius: 10px;
   margin: 20px;
 }
 
 .project p {
-  font-size: 20px;
+  font-size: larger;
   color: #3e497a;
+  text-align: center;
+  line-height: normal;
 }
 
 .project a {

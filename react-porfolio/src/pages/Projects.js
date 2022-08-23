@@ -3,7 +3,7 @@ import ProjectItem from '../components/ProjectItem';
 import { Link } from 'react-router-dom';
 
 import '../styles/Projects.css';
-import { ProjectList } from '../utils/ProjectList';
+import { ProjectList } from '../utils/ProjectsData';
 
 function Projects() {
   return (

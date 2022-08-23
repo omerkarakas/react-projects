@@ -11,13 +11,13 @@
 }
 
 .projects h2 {
-  margin: 50px auto;
+  margin: 10px auto;
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .projects h3 {
-  margin: 20px auto;
+  margin: 8px auto;
   text-align: center;
   font-size: 20px;
 }
@@ -44,7 +44,7 @@
 /* MENU ITEM STYLING */
 
 .projectItem {
-  border-radius: 15px;
+  /* border-radius: 15px; */
   width: 300px;
   height: 300px;
   margin: 20px;
@@ -59,14 +59,19 @@
   cursor: pointer;
 }
 
-.projectItem .bgImage {
+/* .projectItem .bgImage {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  width: 100%;
+  width: 80%;
   height: 200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+} */
+
+.projectImage {
+  width: 300px;
+  height: 200px;
 }
 
 @media only screen and (max-width: 1300px) {
