@@ -1,7 +1,7 @@
 import imgP1 from '../assets/p1.png';
 import imgMovie from '../assets/movie.png';
 import imgP3 from '../assets/p3.png';
-import imgP4 from '../assets/p4.svg';
+import imgP4 from '../assets/haldoon.png';
 import imgP5 from '../assets/f1.jpg';
 import imgP6 from '../assets/ptt.jpg';
 import imgP7 from '../assets/rm.png';
@@ -12,7 +12,21 @@ export const ProjectList = [
     img: imgP7,
     skills: 'React JS, Rest API, Ant Design',
     url: 'https://rickn-morty.netlify.app/',
-    githubUrl: 'https://github.com/omerkarakas',
+    githubUrl: 'https://github.com/omerkarakas/rick-and-morty',
+  },
+  {
+    name: 'Personal Task Tracker',
+    img: imgP6,
+    skills: 'React JS, Materia UI, Rest API, Node.js',
+    url: 'https://personal-tasktracker.netlify.app',
+    githubUrl: 'https://github.com/omerkarakas/personal-task-tracker',
+  },
+  {
+    name: 'Haldoon, The Search Engine',
+    img: imgP4,
+    skills: 'React JS, Rest API',
+    url: 'http://haldoon.okarakas.com',
+    githubUrl: 'https://github.com/omerkarakas/haldoon',
   },
   {
     name: 'E-Commerce website',
@@ -39,24 +53,10 @@ export const ProjectList = [
       'https://github.com/omerkarakas/react-projects/tree/master/calculator',
   },
   {
-    name: 'Haldoon, The Search Engine',
-    img: imgP4,
-    skills: 'React JS, Rest API',
-    url: 'http://haldoon.okarakas.com',
-    githubUrl: 'https://github.com/omerkarakas/haldoon',
-  },
-  {
     name: 'Formula 1 Race History',
     img: imgP5,
     skills: 'NextJS, React JS',
     url: 'https://formula1-ten.vercel.app',
     githubUrl: 'https://github.com/omerkarakas/nextjs-formula1',
-  },
-  {
-    name: 'Personal Task Tracker',
-    img: imgP6,
-    skills: 'React JS, Materia UI, Rest API, Node.js',
-    url: 'https://personal-tasktracker.netlify.app',
-    githubUrl: 'https://github.com/omerkarakas/personal-task-tracker',
   },
 ];

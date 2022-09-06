@@ -25,7 +25,7 @@ function Experience() {
             Turkish Agricultural Credit Cooperatives
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
-            Full Stack Engineer
+            Senior Software Engineer
           </h5>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Ankara, Turkey
@@ -44,7 +44,7 @@ function Experience() {
             Pirigo Payment Solutions
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
-            Co-Founder, Java/JavaScript Developer
+            Co-Founder, Lead Software Engineer
           </h5>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Ankara, Turkey
@@ -67,14 +67,14 @@ function Experience() {
             Bilge Adam Academy
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
-            Javascript, Java, Spring Instructor
+            Web Development Instructor
           </h5>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Ankara, Turkey
           </h5>
           <p>
-            JavaScript, Node.js, HTML, CSS, Java, Hibernate, Spring, MVC, AOP,
-            REST, Spring boot
+            JavaScript, React.js, HTML, CSS, Java, Hibernate, Spring (Framework,
+            MVC, AOP, REST, Security), Spring Boot
           </p>
         </VerticalTimelineElement>
 
@@ -89,7 +89,7 @@ function Experience() {
             Social Security Institution, VBT Software
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
-            Database Performance Tuning Expert
+            Performance Tuning Expert
           </h5>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Ankara, Turkey
@@ -108,14 +108,15 @@ function Experience() {
             Pirigo Payment Solutions
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
-            Co-Founder, Java/JavaScript Developer
+            Co-Founder, Senior Software Engineer
           </h5>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Ankara, Turkey
           </h5>
           <p>
-            Frontend JS, Angular, Ionic, Cordova, Amazon Web Services (AWS),
-            Vaadin Framework, Backend Spring Java development
+            Javascript, Frontend JS, Angular.js, Ionic, Cordova, Amazon Web
+            Services (AWS), Java Vaadin Framework, Backend Spring Java
+            Development, Web Services (REST), PostgreSQL
           </p>
         </VerticalTimelineElement>
 
@@ -130,12 +131,15 @@ function Experience() {
             Innova IT Solutions
           </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
-            Java Developer & Oracle Developer/DBA
+            Senior Software Engineer
           </h5>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Ankara, Turkey
           </h5>
-          <p>Java, Swing, Oracle Database, SQL, PL/SQL</p>
+          <p>
+            Java, Backend Spring Java Development, Web Services (SOAP), Swing,
+            Oracle Database, SQL, PL/SQL
+          </p>
         </VerticalTimelineElement>
 
         {/* MS */}
@@ -163,7 +167,7 @@ function Experience() {
         >
           <h3 className="vertical-timeline-element-title title">Docuart IT</h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
-            Oracle Forms/Reports Developer
+            Software Developer
           </h5>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Ankara, Turkey
