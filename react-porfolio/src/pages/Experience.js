@@ -21,7 +21,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title title">Codemerx</h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">Front End Developer</h5>
           <h5 className="vertical-timeline-element-subtitle subtitle">Sofia, Bulgaria</h5>
-          <p>Typescript, React.js, REST API, Antd, MUI, Reactstrap, Recharts </p>
+          <p>Typescript, React.js, REST API, Antd, MUI, Reactstrap, Recharts</p>
         </VerticalTimelineElement>
 
         {/* PippeLabs */}
