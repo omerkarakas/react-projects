@@ -1,5 +1,8 @@
 import React from "react";
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
@@ -19,9 +22,16 @@ function Experience() {
           h5="omer"
         >
           <h3 className="vertical-timeline-element-title title">Codemerx</h3>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Front End Developer</h5>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Sofia, Bulgaria</h5>
-          <p>Typescript, React.js, REST API, Antd, MUI, Reactstrap, Recharts</p>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Front End Developer
+          </h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Sofia, Bulgaria
+          </h5>
+          <p>
+            React.js, Next.js, Redux, Formik, Typescript, JavaScript, REST API,
+            Antd, MUI, Styled Components, Reactstrap, Recharts
+          </p>
         </VerticalTimelineElement>
 
         {/* PippeLabs */}
@@ -36,7 +46,9 @@ function Experience() {
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Contractor, Front End Developer
           </h5>
-          <h5 className="vertical-timeline-element-subtitle subtitle">San Diego, USA</h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            San Diego, USA
+          </h5>
           <p>Typescript, React.js, REST API, Tailwind, MUI </p>
         </VerticalTimelineElement>
 
@@ -51,8 +63,12 @@ function Experience() {
           <h3 className="vertical-timeline-element-title title">
             Turkish Agricultural Credit Cooperatives
           </h3>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Senior Software Engineer</h5>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Ankara, Turkey</h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Senior Software Engineer
+          </h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
           <p>Javascript, Typescript, React.js, Express, Node.js</p>
         </VerticalTimelineElement>
 
@@ -63,14 +79,19 @@ function Experience() {
           iconStyle={{ background: "steelblue", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title title">Pirigo Payment Solutions</h3>
+          <h3 className="vertical-timeline-element-title title">
+            Pirigo Payment Solutions
+          </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Co-Founder, Lead Software Engineer
           </h5>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Ankara, Turkey</h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
           <p>
-            Javascript, TypeScript, React.js, React native, Amazon Web Services (AWS), Spring/Java
-            backend development, Java Vaadin, Web Services (REST, SOAP), PostgreSQL
+            Javascript, TypeScript, React.js, React native, Amazon Web Services
+            (AWS), Spring/Java backend development, Java Vaadin, Web Services
+            (REST, SOAP), PostgreSQL
           </p>
         </VerticalTimelineElement>
 
@@ -81,14 +102,18 @@ function Experience() {
           iconStyle={{ background: "steelblue", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title title">Bilge Adam Academy</h3>
+          <h3 className="vertical-timeline-element-title title">
+            Bilge Adam Academy
+          </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Web Development Instructor
           </h5>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Ankara, Turkey</h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
           <p>
-            JavaScript, React.js, HTML, CSS, Java, Hibernate, Spring (Framework, MVC, AOP, REST,
-            Security), Spring Boot
+            JavaScript, React.js, HTML, CSS, Java, Hibernate, Spring (Framework,
+            MVC, AOP, REST, Security), Spring Boot
           </p>
         </VerticalTimelineElement>
 
@@ -102,8 +127,12 @@ function Experience() {
           <h3 className="vertical-timeline-element-title title">
             Social Security Institution, VBT Software
           </h3>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Performance Tuning Expert</h5>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Ankara, Turkey</h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Performance Tuning Expert
+          </h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
           <p>Java, IBM DB2, SQL/PL</p>
         </VerticalTimelineElement>
 
@@ -114,14 +143,19 @@ function Experience() {
           iconStyle={{ background: "steelblue", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title title">Pirigo Payment Solutions</h3>
+          <h3 className="vertical-timeline-element-title title">
+            Pirigo Payment Solutions
+          </h3>
           <h5 className="vertical-timeline-element-subtitle subtitle">
             Co-Founder, Senior Software Engineer
           </h5>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Ankara, Turkey</h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
           <p>
-            Javascript, Frontend JS, Angular.js, Ionic, Cordova, AWS EC2, Java Vaadin Framework,
-            Backend Spring Java Development, Web Services (REST), PostgreSQL
+            Javascript, Frontend JS, Angular.js, Ionic, Cordova, AWS EC2, Java
+            Vaadin Framework, Backend Spring Java Development, Web Services
+            (REST), PostgreSQL
           </p>
         </VerticalTimelineElement>
 
@@ -132,12 +166,18 @@ function Experience() {
           iconStyle={{ background: "steelblue", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title title">Innova IT Solutions</h3>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Senior Software Engineer</h5>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Ankara, Turkey</h5>
+          <h3 className="vertical-timeline-element-title title">
+            Innova IT Solutions
+          </h3>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Senior Software Engineer
+          </h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
           <p>
-            Java, Backend Spring Java Development, Web Services (SOAP), Swing, Oracle Database, SQL,
-            PL/SQL
+            Java, Backend Spring Java Development, Web Services (SOAP), Swing,
+            Oracle Database, SQL, PL/SQL
           </p>
         </VerticalTimelineElement>
 
@@ -151,7 +191,9 @@ function Experience() {
           <h3 className="vertical-timeline-element-title title">
             Middle East Technical University
           </h3>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Ankara, Turkey</h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
           <p>MS in Computer Engineering, GPA : 3.45</p>
         </VerticalTimelineElement>
 
@@ -163,8 +205,12 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title title">Docuart IT</h3>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Software Developer</h5>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Ankara, Turkey</h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Software Developer
+          </h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
           <p> Oracle Database, SQL, PL/SQL, Oracle Forms, Reports</p>
         </VerticalTimelineElement>
 
@@ -178,7 +224,9 @@ function Experience() {
           <h3 className="vertical-timeline-element-title title">
             Middle East Technical University
           </h3>
-          <h5 className="vertical-timeline-element-subtitle subtitle">Ankara, Turkey</h5>
+          <h5 className="vertical-timeline-element-subtitle subtitle">
+            Ankara, Turkey
+          </h5>
           <p>BS in Civil Engineering, GPA : 2.85</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
